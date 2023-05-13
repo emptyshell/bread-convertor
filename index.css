@@ -1,0 +1,108 @@
+@import url("https://cdn.rawgit.com/kattergil/seoulNamsan-Webfont/ce840f3d/styles.css");
+@import url("https://fonts.cdnfonts.com/css/shrikhand");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fedd9e;
+  font-family: "SeoulNamsan CEB";
+}
+
+header {
+  background-color: #fff1d4;
+  padding-top: 49px;
+  padding-bottom: 58px;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #cc800e;
+  margin: 0;
+}
+
+header p {
+  font-family: "Shrikhand";
+  margin: 0;
+  text-align: center;
+  font-size: 38px;
+  line-height: 55px;
+  color: #cc800e;
+  font-style: italic;
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  gap: 128px;
+  margin-top: 96px;
+  margin-bottom: 107px;
+}
+
+.container {
+  width: 620px;
+  height: 420px;
+  border: 33.16px solid #fff1d4;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-text {
+  margin-left: 88.79px;
+}
+
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "";
+  border-color: transparent #111;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+li {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.btn {
+  background-color: #fedd9e;
+  width: 376.43px;
+  height: 44.21px;
+  margin-left: 88.79px;
+  border: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 19.89px;
+}
+
+.daniel {
+  background-color: aqua;
+  width: 433px;
+  height: 392px;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 55px;
+    margin-bottom: 59px;
+   
+}
+
