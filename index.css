@@ -106,3 +106,133 @@ li {
    
 }
 
+.convertor-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3);
+    gap: 31px;
+    width: 433px;
+}
+
+.ingredient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF1D5;
+    border-radius: 10px;
+    height: 49px;
+}
+
+
+
+.ingredient-cups {
+    grid-row: 2;  
+    grid-column: 1/5; 
+    background: #FFF1D5;
+    border-radius: 10px;
+    height: 92.79px;
+}
+
+.ingredient-g {
+    grid-row: 3;
+    grid-column: 1/5;  
+    background: #FFF1D5;
+    border-radius: 10px;
+    height: 92.79px;
+}
+
+.ingredient-save {
+    grid-column: 1/5;
+
+}
+
+.ingredient-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ingredient-save-btn {
+    background: #FFBC57;
+    border-radius: 10px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    width: 212.96px;
+    border: none;
+}
+
+.cups-wrap {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.cups-wrap input {
+    margin-left: 20px;
+    border: none;
+    background: #FEFEFE;
+    border-radius: 10px;
+    width: 278.36px;
+    height: 46.39px;
+}
+
+.cups-wrap p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFD596;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #CC800E;
+    width: 100.52px;
+    height: 46.39px;
+}
+
+.g-wrap {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.g-wrap input {
+    margin-left: 20px;
+    border: none;
+    background: #FEFEFE;
+    border-radius: 10px;
+    width: 278.36px;
+    height: 46.39px;
+}
+
+.g-wrap p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFD596;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #CC800E;
+    width: 100.52px;
+    height: 46.39px;
+}
+
+.ingredient-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #CC800E;
+    padding-top: 5px;
+    background-color: transparent;
+    border: none;
+}
